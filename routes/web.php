@@ -1,5 +1,6 @@
 <?php
 use App\Http\Controllers\Employee\EmployeeController;
+use App\Http\Controllers\SpaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,5 +24,6 @@ Route::post('/employee/submit', function () {
     return view('welcome');
 });
 
-//Vuew SPA
-// Route::get('/spa/{any}', 'SpaController@index')->where('any', '.*');
+// Vuew SPA
+Route::get('/spa', SpaController::class.'@index')->where('any', '.*');
+Route::get('/spa/{any}', SpaController::class.'@index')->where('any', '.*');
