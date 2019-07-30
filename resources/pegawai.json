@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "firstName":"Jono",
+        "lastName":"Joni",
+        "job":"pegawai biasa",
+        "address":"Surabaya",
+        "education:":"S1"
+    },
+    {
+        "id":2,
+        "firstName":"Nugroho",
+        "lastName":"Sam I Yon O",
+        "job":"pegawai luar biasa",
+        "address":"Surabaya",
+        "education:":"SMA"
+    },
+    {
+        "id":3,
+        "firstName":"Steven",
+        "lastName":"Kusniadi",
+        "job":"pegawai biasa",
+        "address":"Malang",
+        "education:":"S1"
+    }
+]
