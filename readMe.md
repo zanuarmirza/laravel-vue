@@ -1,6 +1,10 @@
 # Vue App inside Laravel 
 
-simple step to run this project
+### Base Routes:
+- `{root}/spa` ~ untuk akses SPA (Vue)
+- `{root}/employee` ~ akses MPA (laravel blade)
+___
+### simple step to run this project
 make .env for laravel project
 ```
 cp .env.example .env
