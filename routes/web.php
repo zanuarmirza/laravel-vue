@@ -16,13 +16,10 @@ use App\Http\Controllers\SpaController;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/employee', EmployeeController::class."@index");
-Route::get('/employee/{id}', function () {
-    return view('welcome');
-});
-Route::post('/employee/submit', function () {
-    return view('welcome');
-});
+Route::get('/employee', EmployeeController::class."@index")->name('employee');
+Route::get('/employee/form', EmployeeController::class."@create")->name('employeeForm');
+Route::get('/employee/{id}',EmployeeController::class."@detail")->name('detailemployee');
+Route::post('/employee/submit',EmployeeController::class."@sumbit")->name('createEmployee');
 
 // Vuew SPA
 Route::get('/spa', SpaController::class.'@index')->where('any', '.*');

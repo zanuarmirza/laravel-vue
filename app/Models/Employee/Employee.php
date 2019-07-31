@@ -8,7 +8,7 @@ class Employee
 
     public $firstName;
 
-    public $lastname;
+    public $lastName;
 
     public $job;
 
@@ -16,10 +16,10 @@ class Employee
 
     public $education;
     
-    public function __construct($id=null,$firstName,$lastname,$job,$address,$education){
+    public function __construct($id=null,$firstName,$lastName,$job,$address,$education){
         $this->id = $id;
         $this->firstName = $firstName;
-        $this->lastname = $lastname;
+        $this->lastName = $lastName;
         $this->job = $job;
         $this->address = $address;
         $this->education = $education;

@@ -4,9 +4,9 @@
         class="border border-grey-light bg-white rounded p-4 flex flex-col justify-between leading-normal card"
       >
         <div class="text-black font-bold text-xl mb-2">{{fullname}}</div>
-        <p class="text-grey-darker text-base">{{data.firstName}}</p>
         <p class="text-grey-darker text-base">{{data.job}}</p>
         <p class="text-grey-darker text-base">{{data.address}}</p>
+        <p class="text-grey-darker text-base">{{data.education}}</p>
       </div>
   </router-link>
 </template>

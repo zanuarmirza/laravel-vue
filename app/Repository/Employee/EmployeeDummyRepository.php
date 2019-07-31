@@ -16,7 +16,7 @@ class EmployeeRepository
         $arrayJson = json_decode(file_get_contents($path),true);
         foreach($arrayJson as $item){
             $employee = call_user_func_array(array($employeeFactory, 'employee'),$item);
-            array_push($this->employees,(array)$employee);
+            array_push($this->employees,$employee);
         }
     }
 

@@ -7,8 +7,8 @@ use App\Models\Employee\Employee;
 class EmployeeFactory 
 {
 
-    public function employee($id=null,$firstName,$lastname,$job,$address,$education){
-        $employee = new Employee($id,$firstName,$lastname,$job,$address,$education);
+    public function employee($id=null,$firstName,$lastName,$job,$address,$education){
+        $employee = new Employee($id,$firstName,$lastName,$job,$address,$education);
         return $employee;
     }
 
