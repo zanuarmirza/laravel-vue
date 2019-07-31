@@ -18,8 +18,7 @@ php artisan serve
 ## Dev
 
 install node dependency on the root of project 
-
-dir: {root}
+dir: {root} / root project laravel
 ```
 npm install
 ```
@@ -28,6 +27,14 @@ to serve vue app using dev server
 first, change dir to `client`
 ```
 cd client
+```
+install node dependency
+```
+npm install
+```
+make .env for vue project
+```
+cp .env.example .env
 ```
 to serve vue app
 ```
