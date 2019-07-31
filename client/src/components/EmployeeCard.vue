@@ -15,7 +15,7 @@ export default {
   props: ['data'],
   computed: {
     fullname () {
-      return this.data.firstName + this.data.lastname
+      return `${this.data.firstName} ${this.data.lastname}`
     }
   }
 }

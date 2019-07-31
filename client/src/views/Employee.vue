@@ -1,5 +1,5 @@
 <template>
-  <div class="flex content-start flex-wrap p-12 bg-gray-200 h-screen justify-center ">
+  <div class="flex content-start flex-wrap p-12 bg-gray-200 justify-center ">
     <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
       <div class="flex flex-wrap -mx-3 mb-6">
         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">

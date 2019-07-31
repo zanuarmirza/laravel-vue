@@ -1,5 +1,5 @@
 <template>
-  <div class="p-2 justify-center flex h-screen items-center">
+  <div class="p-2 justify-center flex items-center">
     <EmployeeCard :data="data"/>
   </div>
 </template>

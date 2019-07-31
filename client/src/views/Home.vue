@@ -1,5 +1,5 @@
 <template>
-  <div class="flex content-start flex-wrap p-12 bg-gray-200 h-screen">
+  <div class="flex content-start flex-wrap p-12 bg-gray-200">
     <EmployeeCard :key="employee.id" v-for="employee in employees" :data="employee"/>
   </div>
 </template>

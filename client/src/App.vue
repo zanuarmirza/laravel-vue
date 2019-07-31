@@ -1,10 +1,12 @@
 <template>
   <div id="app">
-    <div id="nav">
+    <div id="nav" class="bg-white p-2 mt-0 fixed w-full z-10 top-0">
       <router-link to="/">Home</router-link> |
       <router-link :to="{ name: 'create'}">Create</router-link>
     </div>
-    <router-view/>
+    <div class="pt-20">
+      <router-view/>
+    </div>
   </div>
 </template>
 
